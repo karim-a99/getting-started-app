@@ -1,0 +1,3 @@
+/submit/firefox-desktop/usage-reporting/1/4ef75ba2-b970-4769-b2dc-2b364e783967
+{"metrics":{"counter":{"browser.engagement.active_ticks":14,"browser.engagement.uri_count":8},"uuid":{"usage.profile_id":"8e50e219-0158-4842-b58d-8938844e42e0"}}}
+{"headers":{},"body_has_info_sections":false,"ping_name":"usage-reporting"}

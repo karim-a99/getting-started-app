@@ -1,0 +1,158 @@
+2025-02-08 22:00:08.739 [info] [main] Log level: Info
+2025-02-08 22:00:08.739 [info] [main] Validating found git in: "git"
+2025-02-08 22:00:08.739 [info] [main] Using git "2.43.0" from "git"
+2025-02-08 22:00:08.739 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-08 22:00:08.739 [info] > git rev-parse --show-toplevel [13ms]
+2025-02-08 22:00:08.739 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2025-02-08 22:00:08.739 [info] [Model][openRepository] Opened repository: /home/karimadel/Desktop/getting-started-app
+2025-02-08 22:00:08.742 [info] > git rev-parse --show-toplevel [23ms]
+2025-02-08 22:00:08.743 [info] > git config --get commit.template [49ms]
+2025-02-08 22:00:08.833 [info] > git rev-parse --show-toplevel [71ms]
+2025-02-08 22:00:08.844 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-08 22:00:08.878 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [99ms]
+2025-02-08 22:00:08.894 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/karimadel/Desktop/getting-started-app/.git/refs/remotes/origin/main'
+2025-02-08 22:00:08.902 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2025-02-08 22:00:08.929 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-08 22:00:09.023 [info] > git status -z -uall [110ms]
+2025-02-08 22:00:09.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [57ms]
+2025-02-08 22:00:09.145 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2025-02-08 22:00:09.145 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-08 22:00:09.153 [info] > git config --get commit.template [32ms]
+2025-02-08 22:00:09.180 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-08 22:00:09.180 [info] > git reflog main --grep-reflog=branch: Created from *. [27ms]
+2025-02-08 22:00:09.192 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/karimadel/Desktop/getting-started-app/.git/refs/remotes/origin/main'
+2025-02-08 22:00:09.193 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [6ms]
+2025-02-08 22:00:09.199 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2025-02-08 22:00:09.212 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-08 22:00:09.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [15ms]
+2025-02-08 22:00:09.233 [info] > git config --add --local branch.main.vscode-merge-base origin/main [1ms]
+2025-02-08 22:00:09.265 [info] > git status -z -uall [61ms] (cancelled)
+2025-02-08 22:00:09.265 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2025-02-08 22:00:09.276 [info] > git config --get commit.template [11ms]
+2025-02-08 22:00:09.277 [info] > git check-ignore -v -z --stdin [20ms]
+2025-02-08 22:00:09.313 [info] > git config --get --local branch.main.vscode-merge-base [39ms]
+2025-02-08 22:00:09.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-02-08 22:00:09.333 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2025-02-08 22:00:09.341 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/karimadel/Desktop/getting-started-app/.git/refs/remotes/origin/main'
+2025-02-08 22:00:09.342 [info] > git merge-base refs/heads/main refs/remotes/origin/main [10ms]
+2025-02-08 22:00:09.353 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2025-02-08 22:00:09.369 [info] > git diff --name-status -z --diff-filter=ADMR f2d13b8483f33e7dc6255014cbfd4b528d60bc22...refs/remotes/origin/main [17ms]
+2025-02-08 22:00:09.373 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+2025-02-08 22:00:09.394 [info] > git status -z -uall [35ms]
+2025-02-08 22:01:37.661 [info] > git check-ignore -v -z --stdin [6ms]
+2025-02-08 22:01:40.800 [info] > git check-ignore -v -z --stdin [6ms]
+2025-02-08 22:01:43.353 [info] > git check-ignore -v -z --stdin [4ms]
+2025-02-08 22:01:48.582 [info] > git check-ignore -v -z --stdin [3ms]
+2025-02-08 22:02:44.851 [info] > git rev-parse --show-toplevel [36ms]
+2025-02-08 22:09:00.739 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-08 22:09:12.537 [info] > git config --get commit.template [23ms]
+2025-02-08 22:09:12.539 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-02-08 22:09:12.547 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/karimadel/Desktop/getting-started-app/.git/refs/remotes/origin/main'
+2025-02-08 22:09:12.548 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-02-08 22:09:12.566 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-02-08 22:09:12.587 [info] > git status -z -uall [35ms]
+2025-02-08 22:10:09.040 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-08 22:10:09.614 [info] > git config --get commit.template [7ms]
+2025-02-08 22:10:09.615 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-08 22:10:09.621 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/karimadel/Desktop/getting-started-app/.git/refs/remotes/origin/main'
+2025-02-08 22:10:09.623 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-02-08 22:10:09.639 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-08 22:10:09.658 [info] > git status -z -uall [29ms]
+2025-02-08 22:10:58.349 [info] > git check-ignore -v -z --stdin [4ms]
+2025-02-08 22:10:58.926 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-08 22:10:58.926 [info] > git config --get commit.template [6ms]
+2025-02-08 22:10:58.929 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/karimadel/Desktop/getting-started-app/.git/refs/remotes/origin/main'
+2025-02-08 22:10:58.931 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-02-08 22:10:58.944 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-08 22:10:58.953 [info] > git status -z -uall [18ms]
+2025-02-08 22:11:41.451 [info] > git show --textconv :.github/workflows/docker-image.yml [6ms]
+2025-02-08 22:11:41.457 [info] > git ls-files --stage -- /home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml [7ms]
+2025-02-08 22:11:41.462 [info] > git hash-object -t tree /dev/null [6ms]
+2025-02-08 22:11:41.462 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml.git?%7B%22path%22%3A%22%2Fhome%2Fkarimadel%2FDesktop%2Fgetting-started-app%2F.github%2Fworkflows%2Fdocker-image.yml%22%2C%22ref%22%3A%22%22%7D
+2025-02-08 22:11:41.465 [info] > git hash-object -t tree /dev/null [2ms]
+2025-02-08 22:11:41.465 [warning] [GitFileSystemProvider][stat] File not found - git:/home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml.git?%7B%22path%22%3A%22%2Fhome%2Fkarimadel%2FDesktop%2Fgetting-started-app%2F.github%2Fworkflows%2Fdocker-image.yml%22%2C%22ref%22%3A%22%22%7D
+2025-02-08 22:11:41.697 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-08 22:11:42.280 [info] > git config --get commit.template [7ms]
+2025-02-08 22:11:42.281 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-02-08 22:11:42.286 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/karimadel/Desktop/getting-started-app/.git/refs/remotes/origin/main'
+2025-02-08 22:11:42.288 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-02-08 22:11:42.300 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [0ms]
+2025-02-08 22:11:42.313 [info] > git status -z -uall [20ms]
+2025-02-08 22:13:03.755 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [61ms]
+2025-02-08 22:13:29.860 [info] > git add -A -- . [40ms]
+2025-02-08 22:13:29.906 [info] > git -c user.useConfigOnly=true commit --quiet [39ms]
+2025-02-08 22:13:29.906 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-02-08 22:13:29.912 [info] > git config --get-all user.name [0ms]
+2025-02-08 22:13:29.922 [info] > git config --get commit.template [3ms]
+2025-02-08 22:13:29.929 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-08 22:13:29.934 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/karimadel/Desktop/getting-started-app/.git/refs/remotes/origin/main'
+2025-02-08 22:13:29.935 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-02-08 22:13:29.949 [info] > git status -z -uall [11ms]
+2025-02-08 22:13:29.951 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-08 22:13:30.301 [info] > git show --textconv :.github/workflows/docker-image.yml [27ms]
+2025-02-08 22:13:30.301 [info] > git show --textconv HEAD:.github/workflows/docker-image.yml [19ms]
+2025-02-08 22:13:30.302 [info] > git ls-files --stage -- /home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml [14ms]
+2025-02-08 22:13:30.312 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml.git?%7B%22path%22%3A%22%2Fhome%2Fkarimadel%2FDesktop%2Fgetting-started-app%2F.github%2Fworkflows%2Fdocker-image.yml%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-02-08 22:13:30.314 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [5ms]
+2025-02-08 22:13:30.316 [info] > git ls-tree -l HEAD -- /home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml [18ms]
+2025-02-08 22:13:30.317 [warning] [GitFileSystemProvider][stat] File not found - git:/home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml.git?%7B%22path%22%3A%22%2Fhome%2Fkarimadel%2FDesktop%2Fgetting-started-app%2F.github%2Fworkflows%2Fdocker-image.yml%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-02-08 22:13:36.128 [info] > git config --get commit.template [4ms]
+2025-02-08 22:13:36.146 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-02-08 22:13:36.159 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/karimadel/Desktop/getting-started-app/.git/refs/remotes/origin/main'
+2025-02-08 22:13:36.159 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-02-08 22:13:36.177 [info] > git status -z -uall [9ms]
+2025-02-08 22:13:36.180 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-08 22:13:36.266 [info] > git ls-files --stage -- /home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml [2ms]
+2025-02-08 22:13:36.285 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [2ms]
+2025-02-08 22:13:36.385 [info] > git show --textconv :.github/workflows/docker-image.yml [10ms]
+2025-02-08 22:14:04.641 [info] > git show --textconv :.github/workflows/docker-image.yml [18ms]
+2025-02-08 22:14:04.641 [info] > git show --textconv HEAD:.github/workflows/docker-image.yml [10ms]
+2025-02-08 22:14:04.641 [info] > git ls-files --stage -- /home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml [5ms]
+2025-02-08 22:14:04.647 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml.git?%7B%22path%22%3A%22%2Fhome%2Fkarimadel%2FDesktop%2Fgetting-started-app%2F.github%2Fworkflows%2Fdocker-image.yml%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-02-08 22:14:04.649 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [4ms]
+2025-02-08 22:14:04.649 [info] > git ls-tree -l HEAD -- /home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml [9ms]
+2025-02-08 22:14:04.650 [warning] [GitFileSystemProvider][stat] File not found - git:/home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml.git?%7B%22path%22%3A%22%2Fhome%2Fkarimadel%2FDesktop%2Fgetting-started-app%2F.github%2Fworkflows%2Fdocker-image.yml%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-02-08 22:14:22.655 [info] > git blame --root --incremental f2d13b8483f33e7dc6255014cbfd4b528d60bc22 -- /home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml [3ms]
+2025-02-08 22:14:22.655 [info] fatal: no such path .github/workflows/docker-image.yml in f2d13b8483f33e7dc6255014cbfd4b528d60bc22
+2025-02-08 22:14:30.050 [info] > git show --textconv :Dockerfile [19ms]
+2025-02-08 22:14:30.050 [info] > git show --textconv HEAD:Dockerfile [12ms]
+2025-02-08 22:14:30.050 [info] > git ls-files --stage -- /home/karimadel/Desktop/getting-started-app/Dockerfile [7ms]
+2025-02-08 22:14:30.055 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/karimadel/Desktop/getting-started-app/Dockerfile.git?%7B%22path%22%3A%22%2Fhome%2Fkarimadel%2FDesktop%2Fgetting-started-app%2FDockerfile%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-02-08 22:14:30.056 [info] > git cat-file -s ca8d9225b77ae496091ab071fbc6678e398d8177 [2ms]
+2025-02-08 22:14:30.057 [info] > git ls-tree -l HEAD -- /home/karimadel/Desktop/getting-started-app/Dockerfile [9ms]
+2025-02-08 22:14:30.057 [warning] [GitFileSystemProvider][stat] File not found - git:/home/karimadel/Desktop/getting-started-app/Dockerfile.git?%7B%22path%22%3A%22%2Fhome%2Fkarimadel%2FDesktop%2Fgetting-started-app%2FDockerfile%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-02-08 22:14:30.090 [info] > git blame --root --incremental f2d13b8483f33e7dc6255014cbfd4b528d60bc22 -- /home/karimadel/Desktop/getting-started-app/Dockerfile [4ms]
+2025-02-08 22:14:30.090 [info] fatal: no such path Dockerfile in f2d13b8483f33e7dc6255014cbfd4b528d60bc22
+2025-02-08 22:14:33.629 [info] > git show --textconv :.github/workflows/docker-image.yml [19ms]
+2025-02-08 22:14:33.629 [info] > git show --textconv HEAD:.github/workflows/docker-image.yml [15ms]
+2025-02-08 22:14:33.629 [info] > git ls-files --stage -- /home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml [8ms]
+2025-02-08 22:14:33.635 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml.git?%7B%22path%22%3A%22%2Fhome%2Fkarimadel%2FDesktop%2Fgetting-started-app%2F.github%2Fworkflows%2Fdocker-image.yml%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-02-08 22:14:33.638 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [6ms]
+2025-02-08 22:14:33.639 [info] > git ls-tree -l HEAD -- /home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml [11ms]
+2025-02-08 22:14:33.639 [warning] [GitFileSystemProvider][stat] File not found - git:/home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml.git?%7B%22path%22%3A%22%2Fhome%2Fkarimadel%2FDesktop%2Fgetting-started-app%2F.github%2Fworkflows%2Fdocker-image.yml%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-02-08 22:34:47.551 [info] > git show --textconv :Dockerfile [19ms]
+2025-02-08 22:34:47.551 [info] > git show --textconv HEAD:Dockerfile [14ms]
+2025-02-08 22:34:47.551 [info] > git ls-files --stage -- /home/karimadel/Desktop/getting-started-app/Dockerfile [7ms]
+2025-02-08 22:34:47.557 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/karimadel/Desktop/getting-started-app/Dockerfile.git?%7B%22path%22%3A%22%2Fhome%2Fkarimadel%2FDesktop%2Fgetting-started-app%2FDockerfile%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-02-08 22:34:47.558 [info] > git cat-file -s ca8d9225b77ae496091ab071fbc6678e398d8177 [3ms]
+2025-02-08 22:34:47.559 [info] > git ls-tree -l HEAD -- /home/karimadel/Desktop/getting-started-app/Dockerfile [10ms]
+2025-02-08 22:34:47.559 [warning] [GitFileSystemProvider][stat] File not found - git:/home/karimadel/Desktop/getting-started-app/Dockerfile.git?%7B%22path%22%3A%22%2Fhome%2Fkarimadel%2FDesktop%2Fgetting-started-app%2FDockerfile%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-02-08 22:34:55.957 [info] > git show --textconv :.github/workflows/docker-image.yml [22ms]
+2025-02-08 22:34:55.957 [info] > git show --textconv HEAD:.github/workflows/docker-image.yml [15ms]
+2025-02-08 22:34:55.957 [info] > git ls-files --stage -- /home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml [9ms]
+2025-02-08 22:34:55.964 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml.git?%7B%22path%22%3A%22%2Fhome%2Fkarimadel%2FDesktop%2Fgetting-started-app%2F.github%2Fworkflows%2Fdocker-image.yml%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-02-08 22:34:55.964 [info] > git ls-tree -l HEAD -- /home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml [8ms]
+2025-02-08 22:34:55.965 [warning] [GitFileSystemProvider][stat] File not found - git:/home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml.git?%7B%22path%22%3A%22%2Fhome%2Fkarimadel%2FDesktop%2Fgetting-started-app%2F.github%2Fworkflows%2Fdocker-image.yml%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-02-08 22:34:55.965 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [2ms]

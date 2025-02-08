@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="admin:///var/lib/docker/volumes/mywebdata/_data/index.html" added="2024-12-04T04:13:30.402617Z" modified="2024-12-25T12:15:32.354589Z" visited="2024-12-25T14:15:24.825090+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-12-25T12:15:32.354589Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/karimadel/Desktop/Day-1/lab1-q4.py" added="2024-12-25T19:08:55.378563Z" modified="2024-12-25T19:09:11.381552Z" visited="2024-12-25T21:08:53.712227+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-12-25T19:09:11.381551Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/karimadel/Desktop/Day-1/lab1.py" added="2024-12-25T19:09:11.381554Z" modified="2024-12-25T19:09:11.381556Z" visited="2024-12-25T21:09:08.453182+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-12-25T19:09:11.381555Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

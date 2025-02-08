@@ -1,0 +1,16 @@
+{"timestamp":53853272,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"clean","glean_timestamp":"1739043582458","can_load":"true","loadfail_reason":"N/A"}}
+{"timestamp":53853277,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"clean","can_load":"true","loadfail_reason":"N/A","glean_timestamp":"1739043582462"}}
+{"timestamp":53853281,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"shutdown_reason":"N/A","shutdown_ok":"false","glean_timestamp":"1739043582465"}}
+{"timestamp":53866417,"category":"webcompatreporting","name":"reason_dropdown","extra":{"setting":"required","glean_timestamp":"1739043595602"}}
+{"timestamp":53875680,"category":"jsonfile","name":"load_logins","extra":{"glean_timestamp":"1739043604865","value":""}}
+{"timestamp":53878706,"category":"doh","name":"state_rollback","extra":{"glean_timestamp":"1739043607891","value":"null"}}
+{"timestamp":53890160,"category":"normandy","name":"enroll_nimbus_experiment","extra":{"glean_timestamp":"1739043619345","value":"long-term-holdback-2025h1-growth-desktop","branch":"delivery","experimentType":"nimbus"}}
+{"timestamp":53890161,"category":"nimbus_events","name":"enrollment","extra":{"glean_timestamp":"1739043619345","experiment":"long-term-holdback-2025h1-growth-desktop","experiment_type":"nimbus","branch":"delivery"}}
+{"timestamp":53890426,"category":"normandy","name":"enroll_nimbus_experiment","extra":{"experimentType":"rollout","branch":"treatment-b","glean_timestamp":"1739043619610","value":"fx-view-discoverability-2025-rollout"}}
+{"timestamp":53890426,"category":"nimbus_events","name":"enrollment","extra":{"experiment":"fx-view-discoverability-2025-rollout","glean_timestamp":"1739043619611","branch":"treatment-b","experiment_type":"rollout"}}
+{"timestamp":53891272,"category":"normandy","name":"enroll_nimbus_experiment","extra":{"experimentType":"rollout","branch":"treatment-a","glean_timestamp":"1739043620456","value":"fox-doodle-multi-action-cta-2025-rollout"}}
+{"timestamp":53891272,"category":"nimbus_events","name":"enrollment","extra":{"experiment_type":"rollout","experiment":"fox-doodle-multi-action-cta-2025-rollout","glean_timestamp":"1739043620456","branch":"treatment-a"}}
+{"timestamp":53891406,"category":"normandy","name":"validation_failed_nimbus_experiment","extra":{"reason":"invalid-feature","feature":"addAnImageInPDF","glean_timestamp":"1739043620590","value":"add-an-image-to-pdf-with-alt-text-rollout"}}
+{"timestamp":53891406,"category":"nimbus_events","name":"validation_failed","extra":{"feature":"addAnImageInPDF","experiment":"add-an-image-to-pdf-with-alt-text-rollout","glean_timestamp":"1739043620591","reason":"invalid-feature"}}
+{"timestamp":53891411,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1739043620595"}}
+{"timestamp":53891648,"category":"doh","name":"state_shutdown","extra":{"value":"null","glean_timestamp":"1739043620833"}}

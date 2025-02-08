@@ -1,0 +1,6 @@
+2025-02-08 22:12:40.933 [info] Getting Manifest... github.vscode-github-actions
+2025-02-08 22:12:41.321 [info] Installing extension: github.vscode-github-actions {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/karimadel/.vscode/extensions/extensions.json","path":"/home/karimadel/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.97.0","date":"2025-02-04T22:41:26.688Z"}}
+2025-02-08 22:12:47.614 [info] Extension signature verification result for github.vscode-github-actions: Success. Executed: true. Duration: 2541ms.
+2025-02-08 22:12:48.012 [info] Extracted extension to file:///home/karimadel/.vscode/extensions/github.vscode-github-actions-0.27.1: github.vscode-github-actions
+2025-02-08 22:12:48.022 [info] Renamed to /home/karimadel/.vscode/extensions/github.vscode-github-actions-0.27.1
+2025-02-08 22:12:48.040 [info] Extension installed successfully: github.vscode-github-actions vscode-userdata:/home/karimadel/.vscode/extensions/extensions.json
