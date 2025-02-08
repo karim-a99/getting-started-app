@@ -156,3 +156,9 @@ fatal: no email was given and auto-detection is disabled
 2025-02-08 22:34:55.964 [info] > git ls-tree -l HEAD -- /home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml [8ms]
 2025-02-08 22:34:55.965 [warning] [GitFileSystemProvider][stat] File not found - git:/home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml.git?%7B%22path%22%3A%22%2Fhome%2Fkarimadel%2FDesktop%2Fgetting-started-app%2F.github%2Fworkflows%2Fdocker-image.yml%22%2C%22ref%22%3A%22HEAD%22%7D
 2025-02-08 22:34:55.965 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [2ms]
+2025-02-08 23:26:13.775 [info] > git config --get commit.template [6ms]
+2025-02-08 23:26:13.775 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-08 23:26:13.779 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/karimadel/Desktop/getting-started-app/.git/refs/remotes/origin/main'
+2025-02-08 23:26:13.781 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-02-08 23:26:13.792 [info] > git status -z -uall [7ms]
+2025-02-08 23:26:13.793 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]

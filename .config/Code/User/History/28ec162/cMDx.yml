@@ -1,4 +1,3 @@
-file:///home/karimadel/Desktop/getting-started-app/.github/workflows/docker-image.yml {"mtime":1739045501137,"ctime":1739045501137,"size":0,"etag":"3dniar2630","orphaned":false,"typeId":""}
 name: Docker Image CI
 on:
   push:
